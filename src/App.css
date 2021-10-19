@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 .App-logo {
@@ -35,4 +36,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Box {
+  border: 1px black solid;
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+  align-items: center;
+}
+
+.Content {
+  text-align: left;
+  padding: 50px;
 }
